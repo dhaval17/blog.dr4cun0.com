@@ -303,10 +303,10 @@ uboot> boot
 
 ## References
 
-- U-Boot Documentation: https://www.denx.de/wiki/U-Boot
+- U-Boot Documentation: https://source.denx.de/u-boot/u-boot/-/wikis/home
 - D-Link OpenWrt Support: https://openwrt.org/toh/d-link/start
 - UART Pinouts Database: https://pinouts.ru/
-- Linux Serial Port Configuration: https://www.kernel.org/doc/html/latest/
+- Linux Serial Port Configuration: https://www.kernel.org/doc/html/latest/admin-guide/serial-console.html
 
 ## Conclusion
 
