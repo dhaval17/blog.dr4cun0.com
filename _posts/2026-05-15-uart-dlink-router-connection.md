@@ -11,7 +11,7 @@ UART (Universal Asynchronous Receiver-Transmitter) is a fundamental protocol use
 
 ## What is UART?
 
-UART is a serial communication protocol that transmits data one bit at a time over two wires: TX (transmit) and RX (receive). Unlike SPI or I2C, UART is asynchronous, meaning the devices don't need a shared clock signal.
+UART is a serial communication protocol that transmits data one bit at a time over two wires: TX (transmit) and RX (receive).
 
 ### Key UART Parameters
 
@@ -56,20 +56,14 @@ Or sometimes labeled directly on the board:
 3.3V  TX  RX  GND
 ```
 
-Common UART pin locations on D-Link routers:
-
-- Near the LED connector
-- Near the reset button
-- On the edge of the main PCB
-- Sometimes as test pads rather than headers
-
 ### Identifying Pins with a Multimeter
 
 1. Set multimeter to voltage mode (DC)
 2. Connect one probe to a known ground point (like the GND pad)
 3. Measure voltage on suspected pins
 4. VCC will show steady 3.3V
-5. TX/RX will show variable voltage
+5. TX will show variable voltage, press reset button or reset, you should observe the change in voltage
+6. RX will 0 voltage since it's expecting input
 
 ## Hardware Connection Guide
 
@@ -86,7 +80,7 @@ Connect your adapter to the router according to this mapping:
 
 | Router Pin | USB Adapter Pin |
 |-----------|-----------------|
-| VCC       | VCC (if needed) |
+| VCC       | VCC (usually not needed) |
 | TX        | RX              |
 | RX        | TX              |
 | GND       | GND             |
