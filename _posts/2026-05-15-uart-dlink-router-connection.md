@@ -62,8 +62,8 @@ Or sometimes labeled directly on the board:
 2. Connect one probe to a known ground point (like the GND pad)
 3. Measure voltage on suspected pins
 4. VCC will show steady 3.3V
-5. TX will show variable voltage, press reset button or reset, you should observe the change in voltage
-6. RX will 0 voltage since it's expecting input
+5. TX will show variable voltage, press reset button or restart, you should observe the change in voltage
+6. RX will show 0 voltage since it's expecting input, some devices have this pin disabled, limiting the connection to read-only
 
 ## Hardware Connection Guide
 
