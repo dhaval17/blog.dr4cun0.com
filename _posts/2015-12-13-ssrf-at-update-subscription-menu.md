@@ -26,8 +26,6 @@ Test failed as expected.
 
 Now a non-existing port: `http://dr4cun0.com:1234/`
 
-![Test on Non-Existing Port](/assets/images/ssrf-facebook/test-non-existing-port.png)
-
 Test fails again but with a different response code.
 
 ## POC Time
