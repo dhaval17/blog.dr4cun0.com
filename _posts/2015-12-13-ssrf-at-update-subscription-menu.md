@@ -10,7 +10,7 @@ This blog is about the SSRF I found in Facebook.
 
 A while ago I was fiddling with Facebook's Developer Section and I noticed **Update Subscription Menu**.
 
-![Update Subscription Menu](/assets/images/ssrf-facebook/subscription-menu.png)
+![Update Subscription Menu](/assets/images/subscription-menu.png)
 
 So, basically this menu allows you to enter a URL and Facebook pings and checks for the token at the entered URL.
 
@@ -18,7 +18,7 @@ So, basically this menu allows you to enter a URL and Facebook pings and checks 
 
 Let's ping some ports. I entered: `http://dr4cun0.com:80/`
 
-![Test on Port 80](/assets/images/ssrf-facebook/test-port-80.png)
+![Test on Port 80](/assets/images/test-port-80.png)
 
 Test failed as expected.
 
