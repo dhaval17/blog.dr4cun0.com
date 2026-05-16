@@ -26,8 +26,6 @@ I tried few vectors but there was some authentication which required "HTTP:// or
 
 But analysing the authentication it was just **Client Side Authentication**.
 
-![Client Side Authentication Check](/assets/images/xss-paypal-client-auth.png)
-
 ## Exploitation
 
 So, I fired up burp suite and edited the "oauth_return_url_live" parameter:
