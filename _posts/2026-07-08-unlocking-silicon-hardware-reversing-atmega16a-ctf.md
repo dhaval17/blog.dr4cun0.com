@@ -10,6 +10,7 @@ tags: [atmega16a, ctf, hardware-hacking, reverse-engineering, isp, avrdude, ghid
 I recently tackled a custom CTF board built around the classic Atmel **ATmega16A** 8-bit microcontroller from Defcon 33 Bug Bounty Village. This challenge beautifully demonstrated the intersection of hardware interfacing and software reverse engineering.
 
 **Challenge Link:** https://www.bugbountydefcon.com/bbv-badge-2025
+
 **Github Link** https://github.com/dhaval17/BBV-CTF
 
 ### Objective
